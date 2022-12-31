@@ -1,4 +1,4 @@
-# Advent of Code 2022
+# Advent of Code 2022 :santa:
 
 This repo covers some Julia answers to the [Advent of Code 2022](https://adventofcode.com/) problems. A brief summary of each of the statements of each problem is shown below.
 
@@ -33,3 +33,15 @@ The input is a list of numbers in the format: a-b,x-y, which represent two range
 The input is a list of stacks of characters (crates) and a set of instructions to move this characters.
 - Part 1: The top crates of each list if the moves are applied to the elements one by one. 
 - Part 2: The top crates of each list if the moves are applied to whole blocks (keeping the order).
+
+## Day 6: Tuning Trouble
+
+The input is a string of characters.
+- Part 1: Find the index for the first block of 4 different characters (the index of the last number of the block).
+- Part 2: Find the index for the first block of 14 different characters (the index of the last number of the block).
+
+## Day 7: No Space Left On Device
+
+The input is a log of commands with information about a filesystem. A more elaborate program by using structs can be created, but in this case I prefer to keep it simple (although some folder structure information, that is not relevant to the problem, is lost).
+- Part 1: Find the sum of the sizes of directories with sizes less than 100000.
+- Part 2: Find the shortest directory to free up the needed space.
