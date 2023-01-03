@@ -2,6 +2,16 @@
 
 This repo covers some Julia answers to the [Advent of Code 2022](https://adventofcode.com/) problems. A brief summary of each of the statements of each problem is shown below.
 
+1. [Calorie Counting](#day-1-calorie-counting)
+2. [Rock Paper Scissors](#day-2-rock-paper-scissors)
+3. [Rucksack Reorganization](#day-3-rucksack-reorganization)
+4. [Camp Cleanup](#day-4-camp-cleanup)
+5. [Supply Stacks](#day-5-supply-stacks)
+6. [Tuning Trouble](#day-6-tuning-trouble)
+7. [No Space Left On Device](#day-7-no-space-left-on-device)
+8. [Treetop Tree House](#day-8-treetop-tree-house)
+9. [Rope Bridge](#day-9-rope-bridge)
+
 ## Day 1: Calorie Counting
 
 The input is a list of numbers (calories) separated by empty lines (that marks the separation between each elf). The goals of the problem are:
@@ -45,3 +55,15 @@ The input is a string of characters.
 The input is a log of commands with information about a filesystem. A more elaborate program by using structs can be created, but in this case I prefer to keep it simple (although some folder structure information, that is not relevant to the problem, is lost).
 - Part 1: Find the sum of the sizes of directories with sizes less than 100000.
 - Part 2: Find the shortest directory to free up the needed space.
+
+## Day 8: Treetop Tree House
+
+The input is a matrix of trees' heights. 
+- Part 1: Find the number of trees that are visible (a tree is visible if all of the other trees between it and an edge of the grid are shorter than it).
+- Part 2: Find the highest scenic score. The scenic score is found by multiplying together its viewing distance in each of the four directions, where the viewing distance is defined as the number of trees between a given tree and an edge that are visible from said tree.
+
+## Day 9: Rope Bridge
+
+The input is a list of instructions for the 2D movement of the head of a rope, where the letter represents a direction (up, down, left, right) and the number is the steps in said direction.
+- Part 1: For a rope with 2 knots, find the number of unique positions visited  by the tail of the rope (knot 2).
+- Part 2: For a rope with 10 knots, find the number of unique positions visited by the tail of the rope (knot 10).
