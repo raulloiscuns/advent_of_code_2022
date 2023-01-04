@@ -11,6 +11,8 @@ This repo covers some Julia answers to the [Advent of Code 2022](https://advento
 7. [No Space Left On Device](#day-7-no-space-left-on-device)
 8. [Treetop Tree House](#day-8-treetop-tree-house)
 9. [Rope Bridge](#day-9-rope-bridge)
+10. [Cathode-Ray Tube](#day-10-cathode-ray-tube)
+11. [Monkey in the Middle](#day-11-monkey-in-the-middle)
 
 ## Day 1: Calorie Counting
 
@@ -67,3 +69,15 @@ The input is a matrix of trees' heights.
 The input is a list of instructions for the 2D movement of the head of a rope, where the letter represents a direction (up, down, left, right) and the number is the steps in said direction.
 - Part 1: For a rope with 2 knots, find the number of unique positions visited  by the tail of the rope (knot 2).
 - Part 2: For a rope with 10 knots, find the number of unique positions visited by the tail of the rope (knot 10).
+
+## Day 10: Cathode-Ray Tube
+
+The input is a list of instructions for controlling an image display.
+- Part 1: Add the product of a signal value and the cycle for a given number of equispaced cycles.
+- Part 2: Create an image taking into account that a certain pixel of the display lights up if the cycle match with the CRT.
+
+## Day 11: Monkey in the Middle
+
+The input is a list of [monkeys](https://en.wikipedia.org/wiki/Monkey) written as described [here](https://adventofcode.com/2022/day/11).
+- Part 1: After 20 games, obtain the product of the inspected items of the two most active monkeys. In this case, the monkeys get bored with items and divide its worry level by 3.
+- Part 2: After 10000 games, obtain the product of the inspected items of the two most active monkeys. In this case, the monkeys don't get bored with items and the worry level must be scaled to avoid overflow errors.
