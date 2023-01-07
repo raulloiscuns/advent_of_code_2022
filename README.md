@@ -13,6 +13,7 @@ This repo covers some Julia answers to the [Advent of Code 2022](https://advento
 9. [Rope Bridge](#day-9-rope-bridge)
 10. [Cathode-Ray Tube](#day-10-cathode-ray-tube)
 11. [Monkey in the Middle](#day-11-monkey-in-the-middle)
+12. [Hill Climbing Algorithm](#day-12-hill-climbing-algorithm)
 
 ## Day 1: Calorie Counting
 
@@ -81,3 +82,9 @@ The input is a list of instructions for controlling an image display.
 The input is a list of [monkeys](https://en.wikipedia.org/wiki/Monkey) written as described [here](https://adventofcode.com/2022/day/11).
 - Part 1: After 20 games, obtain the product of the inspected items of the two most active monkeys. In this case, the monkeys get bored with items and divide its worry level by 3.
 - Part 2: After 10000 games, obtain the product of the inspected items of the two most active monkeys. In this case, the monkeys don't get bored with items and the worry level must be scaled to avoid overflow errors.
+
+## Day 12: Hill Climbing Algorithm
+
+The input is a height map (each heigth is mapped with a lowercase letter) with a marked start point (S) and end point (E), with minimum (a) and maximum (z) heigth respectively. To solve the exercise, an [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) will be used.
+- Part 1: Find the length of the shortest path from the starting to the end point.
+- Part 2: Find the length of the shortest path from any 'a' point to the end point.
